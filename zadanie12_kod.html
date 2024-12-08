@@ -1,0 +1,46 @@
+<html>
+<head>
+ <script type="text/javascript">
+ function okno_zamknij_siejka()
+ {
+ window.close()
+ }
+21
+ </script>
+</head>
+<body>
+ <form>
+ <textarea name="siejka" cols="80" rows="20" readonly>
+zadanie 12
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> proste obliczenia</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <div style="color:green; font-size:36px;">
+    <script language="JavaScript">
+        var m_kote1 = prompt("D1=" + "");
+        var m_kote2 = prompt("G1=" + "");
+        var m_kote3 = prompt("D2=" + "");
+        var m_kote4 = prompt("G2=" + "");
+
+        var hoursAmount = (m_kote1 - m_kote3) * 24 + (m_kote2 - m_kote4);
+        var secondsAmount = hoursAmount * 3600;
+
+        document.write("D1=" + m_kote1 + "<br>");
+        document.write("D2=" + m_kote2 + "<br>");
+        document.write("G1=" + m_kote3 + "<br>");
+        document.write("G2=" + m_kote4 + "<br>");
+        document.write("Ilość sekund=" + secondsAmount + " " + "sekund" + "<br>");
+    </script>
+    </div>
+    <input type="button" value="zamknij okno" onclick="window.close()"/>
+ </textarea>
+</form>
+<input type="button" value="zamknij okno" onclick="okno_zamknij_siejka()"/>
+<script type="text/javascript">
+</script>
+</body>
+</html>

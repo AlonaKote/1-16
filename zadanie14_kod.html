@@ -1,0 +1,42 @@
+<html>
+<head>
+ <script type="text/javascript">
+ function okno_zamknij_siejka()
+ {
+ window.close()
+ }
+21
+ </script>
+</head>
+<body>
+ <form>
+ <textarea name="siejka" cols="80" rows="20" readonly>
+zadanie 14
+<!DOCTYPE html> 
+ <head> 
+ <title> proste obliczenia</title> 
+ <meta charset="utf-8"> 
+ </head> 
+<body>
+<div style = "color:red; font-size:100px; ">
+<script language = "JavaScript">
+var liczba1=prompt("Podaj mianownik m=" ,"");
+var m_kote1=parseFloat(liczba1);
+var ulamek1 = "1/" + (m_kote1 + 2);
+var ulamek2 = "1/" + (m_kote1 + 1) * (m_kote1 + 2);
+var ulamek3 = "1/" + (m_kote1 * (m_kote1 + 1));
+
+document.write("m=" + m_kote1 + "<br>");
+document.write("1/" + m_kote1 +" = " + ulamek1 + "+" + ulamek2 + "+" + ulamek3 + "<br>");
+
+</script>
+</div>
+<input type="button" value="zamknij okno" onclick="window.close()"/>
+
+ </textarea>
+</form>
+<input type="button" value="zamknij okno" onclick="okno_zamknij_siejka()"/>
+<script type="text/javascript">
+</script>
+</body>
+</html>

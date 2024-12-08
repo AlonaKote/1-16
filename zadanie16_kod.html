@@ -1,0 +1,43 @@
+<html>
+<head>
+ <script type="text/javascript">
+ function okno_zamknij_siejka()
+ {
+ window.close()
+ }
+21
+ </script>
+</head>
+<body>
+ <form>
+ <textarea name="siejka" cols="80" rows="20" readonly>
+zadanie 16
+ <!DOCTYPE html> 
+ <head> 
+ <title>Zadanie 16</title> 
+ <meta charset="utf-8"> 
+ </head> 
+<body>
+<div style="color:red;font-size:50px;">
+ <script language="JavaScript">
+var liczba1=prompt("liczba1=","");
+var liczba2=prompt("liczba2=","");
+ var m_kote1=parseFloat(liczba1);
+ var m_kote2=parseFloat(liczba2);
+ const result1=Math.pow(m_kote1,3);
+ const result2=Math.pow(m_kote2,2);
+ const result3=Math.pow(m_kote1,2);
+ const result4=Math.pow(m_kote2,3);
+ obliczenie= result1 + (3*m_kote1*result2) + (3*result3+m_kote2+result4);
+ document.write("Wczytane liczby: A=" + m_kote1 + " B=" + m_kote2 + "<br>");
+document.write("(" + m_kote1 + "+" + m_kote2 +")" + "^3" + "=" + m_kote1 + "^3" + "+" + "3" + "*" + m_kote1 + "*" + m_kote2 + "^2" + "+" + "3" + "*" + m_kote1 + "^2" + "+" + m_kote2 + "+" + m_kote2 + "^3" + "=" + obliczenie);
+ </script>
+</div>
+<input type="button" value="zamknij okno" onclick="window.close()"/>
+ </textarea>
+</form>
+<input type="button" value="zamknij okno" onclick="okno_zamknij_siejka()"/>
+<script type="text/javascript">
+</script>
+</body>
+</html>
